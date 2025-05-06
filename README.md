@@ -1,5 +1,14 @@
 # grikod2 (Gri Kod, Gray Code)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15352207.svg)](https://doi.org/10.5281/zenodo.15352207)
+
+[![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/version.svg)](https://anaconda.org/bilgi/grikod2)
+[![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/latest_release_date.svg)](https://anaconda.org/bilgi/grikod2)
+[![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/platforms.svg)](https://anaconda.org/bilgi/grikod2)
+[![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/license.svg)](https://anaconda.org/bilgi/grikod2)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Open%20Source-brightgreen.svg)](https://opensource.org/)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 A Python library for converting binary numbers to Gray Code with ease.
 
@@ -105,16 +114,14 @@ If this library was useful to you in your research, please cite us. Following th
 ### APA
 
 ```
-Keçeci, M. (2025). Gri Kod 2: grikod2 converts binary numbers to Gray Code. (Version 1.1.1) [Computer software]. https://pypi.org/project/grikod2/
-
+Keçeci, M. (2025). Grikod2 (1.1.1). GitHub, PYPI, Anaconda, Zenodo. https://doi.org/10.5281/zenodo.15352207
 
 ```
 
 ### Chicago
 
 ```
-Keçeci, Mehmet. “grikod2”. PYPI, Python Package Index, Python Software Foundation, Anaconda, 06 May 2025. 
-
+Keçeci, Mehmet. “Grikod2”. GitHub, PYPI, Anaconda, Zenodo, 06 Mayıs 2025. https://doi.org/10.5281/zenodo.15352207.
 
 ```
 
