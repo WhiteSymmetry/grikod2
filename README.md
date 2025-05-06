@@ -6,8 +6,12 @@
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/latest_release_date.svg)](https://anaconda.org/bilgi/grikod2)
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/platforms.svg)](https://anaconda.org/bilgi/grikod2)
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/license.svg)](https://anaconda.org/bilgi/grikod2)
+
 [![Open Source](https://img.shields.io/badge/Open%20Source-Open%20Source-brightgreen.svg)](https://opensource.org/)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[![Documentation Status](https://readthedocs.org/projects/grikod/badge/?1.1.1=main)](https://grikod.readthedocs.io/en/main/?badge=main)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15352207.svg)](https://doi.org/10.5281/zenodo.15352207)
 
 
 A Python library for converting binary numbers to Gray Code with ease.
