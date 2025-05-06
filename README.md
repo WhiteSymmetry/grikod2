@@ -101,28 +101,6 @@ If this library was useful to you in your research, please cite us. Following th
 
 ### BibTeX
 
-```bibtex
-@software{Kececi_Gri_Kod_2_2025,
-    author = {Keçeci, Mehmet},
-    license = {MIT},
-    month = nov,
-    title = {{Gri Kod}},
-    url = {https://pypi.org/project/grikod2/},
-    version = {1.1.1},
-    year = {2025}
-}
-```
-
-```bibtex
-@software{Kececi_Gri_Kod_2_2025,
-    author = {Keçeci, Mehmet},
-    license = {MIT},
-    month = nov,
-    title = {{Gri Kod}},
-    url = {https://pypi.org/project/grikod2/},
-    version = {1.1.1},
-    year = {2025}
-}
 
 ### APA
 
