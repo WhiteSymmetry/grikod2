@@ -1,15 +1,5 @@
 # grikod2 (Gri Kod, Gray Code)
 
-[![Documentation Status](https://readthedocs.org/projects/grikod2/badge/?version=main)](https://grikod2.readthedocs.io/en/main/?badge=main)
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.***.svg)](https://doi.org/10.5281/zenodo.***)
-
-[![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/version.svg)](https://anaconda.org/bilgi/grikod2)
-[![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/latest_release_date.svg)](https://anaconda.org/bilgi/grikod2)
-[![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/platforms.svg)](https://anaconda.org/bilgi/grikod2)
-[![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/license.svg)](https://anaconda.org/bilgi/grikod2)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Open%20Source-brightgreen.svg)](https://opensource.org/)
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A Python library for converting binary numbers to Gray Code with ease.
 
