@@ -1,1 +1,1 @@
-https://github.com/KuantumBS/grikod
+https://github.com/KuantumBS/grikod2
