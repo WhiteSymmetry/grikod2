@@ -67,10 +67,33 @@ pip install git+https://github.com/KuantumBS/grikod2.git
 ## Kullanım (Türkçe) / Usage (English)
 
 ```python
-import grikod2 # Restart Kernel veya/or Restart Kernel and Clear Outputs
+import grikod2
+
+def main():
+    # Binary numbers: ikili sayılar
+    binary_numbers = ["0", "1", "10", "11", "100", "101", "1111"]
+
+    for binary in binary_numbers:
+        try:
+            gray_code = grikod2.ikili_2_gri_kod(binary)
+            print(f"Binary: İkili: {binary} -> Gri Kod: {gray_code}")
+        except grikod2.InvalidBinaryError as e:
+            print(f"İkili: {binary} -> Hata: {e}")
+
+if __name__ == "__main__":
+    main()
+```
+```
+Binary: İkili: 0 -> Gri Kod: 0
+Binary: İkili: 1 -> Gri Kod: 1
+Binary: İkili: 10 -> Gri Kod: 11
+Binary: İkili: 11 -> Gri Kod: 10
+Binary: İkili: 100 -> Gri Kod: 110
+Binary: İkili: 101 -> Gri Kod: 111
+Binary: İkili: 1111 -> Gri Kod: 1000
 
 
-# Run this cell (Shift+Enter): Input: 100
+# Input: 100
 # Output example
 # 000:000
 # 001:001
@@ -81,6 +104,7 @@ import grikod2 # Restart Kernel veya/or Restart Kernel and Clear Outputs
 # 110:101
 # 111:100
 ```
+
 ```python
 import grikod2
 grikod2.__version__
