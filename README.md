@@ -1,2 +1,172 @@
-# grikod2
-grikod2
+# grikod2 (Gri Kod, Gray Code)
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod2.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod2?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod2.svg?type=shield&issueType=security)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod2?ref=badge_shield&issueType=security)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod2.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FKuantumBS%2Fgrikod2?ref=badge_small)
+[![Documentation Status](https://readthedocs.org/projects/grikod2/badge/?version=main)](https://grikod2.readthedocs.io/en/main/?badge=main)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14148764.svg)](https://doi.org/10.5281/zenodo.14148764)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14148764.svg)](https://doi.org/10.5281/zenodo.14148764)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14147520.svg)](https://doi.org/10.5281/zenodo.14147520)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12731346.svg)](https://doi.org/10.5281/zenodo.12731346)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14029245.svg)](https://doi.org/10.5281/zenodo.14029245)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14029276.svg)](https://doi.org/10.5281/zenodo.14029276)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14099425.svg)](https://doi.org/10.5281/zenodo.14099425)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14099659.svg)](https://doi.org/10.5281/zenodo.14099659)
+
+[![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/version.svg)](https://anaconda.org/bilgi/grikod2)
+[![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/latest_release_date.svg)](https://anaconda.org/bilgi/grikod2)
+[![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/platforms.svg)](https://anaconda.org/bilgi/grikod2)
+[![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/license.svg)](https://anaconda.org/bilgi/grikod2)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Open%20Source-brightgreen.svg)](https://opensource.org/)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A Python library for converting binary numbers to Gray Code with ease.
+
+---
+
+## Tanım (Türkçe)
+Gri Kod: grikod2 İkili sayıları Gri Koda çevirir.
+
+## Description (English)
+Gri Kod: grikod2 converts binary numbers to Gray Code.
+
+---
+
+## Kurulum (Türkçe) / Installation (English)
+
+### Python ile Kurulum / Install with pip, conda, mamba
+```bash
+pip install grikod2 -U
+python -m pip install -U grikod2
+conda install bilgi::grikod2 -y
+mamba install bilgi::grikod2 -y
+```
+
+```diff
+- pip uninstall grikod2 -y
++ pip install -U grikod2
++ python -m pip install -U grikod2
+```
+
+[PyPI](https://pypi.org/project/grikod2/)
+
+### Test Kurulumu / Test Installation
+
+```bash
+pip install -i https://test.pypi.org/simple/ grikod2 -U
+```
+
+### Github Master Kurulumu / GitHub Master Installation
+
+**Terminal:**
+
+```bash
+pip install git+https://github.com/KuantumBS/grikod2.git
+```
+
+**Jupyter Lab, Notebook, Visual Studio Code:**
+
+```python
+!pip install git+https://github.com/KuantumBS/grikod2.git
+# or
+%pip install git+https://github.com/KuantumBS/grikod2.git
+```
+
+---
+
+## Kullanım (Türkçe) / Usage (English)
+
+```python
+import grikod2 # Restart Kernel veya/or Restart Kernel and Clear Outputs
+
+# veya/or
+import importlib
+import grikod2
+importlib.reload(grikod2) # Modülünüzün ana dosyasını burada yeniden yükler
+
+# Run this cell (Shift+Enter): Input: 100
+# Output example
+# 000:000
+# 001:001
+# 010:011
+# 011:010
+# 100:110
+# 101:111
+# 110:101
+# 111:100
+```
+```python
+import grikod2
+grikod2.__version__
+```
+---
+
+### Development
+```bash
+# Clone the repository
+git clone https://github.com/KuantumBS/grikod2.git
+cd grikod2
+
+# Install in development mode
+python -m pip install -ve . # Install package in development mode
+
+# Run tests
+pytest
+
+Notebook, Jupyterlab, Colab, Visual Studio Code
+!python -m pip install git+https://github.com/KuantumBS/grikod2.git
+```
+---
+
+## Citation
+
+If this library was useful to you in your research, please cite us. Following the [GitHub citation standards](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files), here is the recommended citation.
+
+### BibTeX
+
+```bibtex
+@software{Kececi_Gri_Kod_2_2025,
+    author = {Keçeci, Mehmet},
+    license = {MIT},
+    month = nov,
+    title = {{Gri Kod}},
+    url = {https://pypi.org/project/grikod2/},
+    version = {1.1.1},
+    year = {2025}
+}
+```
+
+```bibtex
+@software{Kececi_Gri_Kod_2_2025,
+    author = {Keçeci, Mehmet},
+    license = {MIT},
+    month = nov,
+    title = {{Gri Kod}},
+    url = {https://pypi.org/project/grikod2/},
+    version = {1.1.1},
+    year = {2025}
+}
+
+### APA
+
+```
+Keçeci, M. (2025). Gri Kod 2: grikod2 converts binary numbers to Gray Code. (Version 1.1.1) [Computer software]. https://pypi.org/project/grikod2/
+
+
+```
+
+### Chicago
+
+```
+Keçeci, Mehmet. “grikod2”. PYPI, Python Package Index, Python Software Foundation, Anaconda, 06 May 2025. 
+
+
+```
+
+
+### Lisans (Türkçe) / License (English)
+
+```
+This project is licensed under the MIT License.
+```
