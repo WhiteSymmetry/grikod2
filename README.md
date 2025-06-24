@@ -1,6 +1,6 @@
 # grikod2 (Gri Kod, Gray Code)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15352207.svg)](https://doi.org/10.5281/zenodo.15352207)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15352206.svg)](https://doi.org/10.5281/zenodo.15352206)
 
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/version.svg)](https://anaconda.org/bilgi/grikod2)
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/latest_release_date.svg)](https://anaconda.org/bilgi/grikod2)
@@ -93,16 +93,16 @@ Binary: İkili: 101 -> Gri Kod: 111
 Binary: İkili: 1111 -> Gri Kod: 1000
 
 
-# Input: 100
-# Output example
-# 000:000
-# 001:001
-# 010:011
-# 011:010
-# 100:110
-# 101:111
-# 110:101
-# 111:100
+#Input: 100
+#Output example
+#000:000
+#001:001
+#010:011
+#011:010
+#100:110
+#101:111
+#110:101
+#111:100
 ```
 
 ```python
@@ -138,14 +138,14 @@ If this library was useful to you in your research, please cite us. Following th
 ### APA
 
 ```
-Keçeci, M. (2025). Grikod2 (1.1.1). GitHub, PYPI, Anaconda, Zenodo. https://doi.org/10.5281/zenodo.15352207
+Keçeci, M. (2025). Grikod2. GitHub, PYPI, Anaconda, Zenodo. https://doi.org/10.5281/zenodo.15352206
 
 ```
 
 ### Chicago
 
 ```
-Keçeci, Mehmet. “Grikod2”. GitHub, PYPI, Anaconda, Zenodo, 06 Mayıs 2025. https://doi.org/10.5281/zenodo.15352207.
+Keçeci, Mehmet. "Grikod2". GitHub, PYPI, Anaconda, Zenodo, 06 Mayıs 2025. https://doi.org/10.5281/zenodo.15352206.
 
 ```
 
