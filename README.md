@@ -18,7 +18,11 @@
 [![PyPI version](https://badge.fury.io/py/grikod2.svg)](https://badge.fury.io/py/grikod2)
 [![PyPI Downloads](https://static.pepy.tech/badge/grikod2)](https://pepy.tech/projects/grikod2)
 
+<a href="https://codecov.io/gh/KuantumBS/grikod2" > 
+ <img src="https://codecov.io/gh/KuantumBS/grikod2/graph/badge.svg?token=1SDH8E9RAJ"/> 
+ </a>
 
+---
 A Python library for converting binary numbers to Gray Code with ease.
 
 ---
