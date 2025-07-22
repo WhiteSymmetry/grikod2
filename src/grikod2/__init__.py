@@ -37,7 +37,7 @@ def eski_fonksiyon():
 
 
 # Paket sürüm numarası
-__version__ = "1.1.1"
+__version__ = "1.1.2"
 
 
 # Geliştirme sırasında test etmek için

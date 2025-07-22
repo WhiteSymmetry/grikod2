@@ -16,9 +16,9 @@ authors:
     orcid: 'https://orcid.org/0000-0001-9937-9839'
 identifiers:
   - type: doi
-    value: 
+    value: 10.5281/zenodo.15352206
   - type: doi
-    value: 
+    value: 10.48546/workflowhub.datafile.13.1
 repository-code: 'https://github.com/KuantumBS/grikod2'
 url: 'https://github.com/KuantumBS/grikod2'
 repository: 'https://anaconda.org/bilgi/grikod2'
