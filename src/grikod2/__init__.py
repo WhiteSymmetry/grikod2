@@ -10,6 +10,8 @@ import os
 if os.getenv("DEVELOPMENT") == "true":
     importlib.reload(grikod2)
 
+# Paket sürüm numarası
+__version__ = "1.1.2"
 
 # Göreli modül içe aktarmaları
 # F401 hatasını önlemek için sadece kullanacağınız şeyleri dışa aktarın
@@ -34,11 +36,6 @@ def eski_fonksiyon():
         category=DeprecationWarning,
         stacklevel=2
     )
-
-
-# Paket sürüm numarası
-__version__ = "1.1.2"
-
 
 # Geliştirme sırasında test etmek için
 if __name__ == "__main__":
