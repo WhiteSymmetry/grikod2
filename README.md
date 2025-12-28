@@ -19,7 +19,9 @@
 [![Documentation Status](https://readthedocs.org/projects/grikod2/badge/?version=latest)](https://grikod2.readthedocs.io/en/latest/)
 [![Binder](https://terrarium.evidencepub.io/badge_logo.svg)](https://terrarium.evidencepub.io/v2/gh/KuantumBS/grikod2/HEAD)
 [![PyPI version](https://badge.fury.io/py/grikod2.svg)](https://badge.fury.io/py/grikod2)
+
 [![PyPI Downloads](https://static.pepy.tech/badge/grikod2)](https://pepy.tech/projects/grikod2)
+![PyPI Downloads](https://img.shields.io/pypi/dm/grikod2?logo=pypi&label=PyPi%20downloads)
 
 ---
 
