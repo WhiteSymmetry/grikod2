@@ -1,4 +1,5 @@
 # grikod2 (Gri Kod, Gray Code)
+---
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15352206.svg)](https://doi.org/10.5281/zenodo.15352206)
 
@@ -8,20 +9,16 @@
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/latest_release_date.svg)](https://anaconda.org/bilgi/grikod2)
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/platforms.svg)](https://anaconda.org/bilgi/grikod2)
 [![Anaconda-Server Badge](https://anaconda.org/bilgi/grikod2/badges/license.svg)](https://anaconda.org/bilgi/grikod2)
-
 [![Open Source](https://img.shields.io/badge/Open%20Source-Open%20Source-brightgreen.svg)](https://opensource.org/)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Documentation Status](https://readthedocs.org/projects/grikod/badge/?1.1.1=main)](https://grikod.readthedocs.io/en/main/?badge=main)
-
 
 [![Python CI](https://github.com/KuantumBS/grikod2/actions/workflows/python_ci.yml/badge.svg?branch=main)](https://github.com/KuantumBS/grikod2/actions/workflows/python_ci.yml)
 [![codecov](https://codecov.io/gh/KuantumBS/grikod2/graph/badge.svg?token=1SDH8E9RAJ)](https://codecov.io/gh/KuantumBS/grikod2)
 [![Documentation Status](https://readthedocs.org/projects/grikod2/badge/?version=latest)](https://grikod2.readthedocs.io/en/latest/)
 [![Binder](https://terrarium.evidencepub.io/badge_logo.svg)](https://terrarium.evidencepub.io/v2/gh/KuantumBS/grikod2/HEAD)
 [![PyPI version](https://badge.fury.io/py/grikod2.svg)](https://badge.fury.io/py/grikod2)
-
 [![PyPI Downloads](https://static.pepy.tech/badge/grikod2)](https://pepy.tech/projects/grikod2)
-![PyPI Downloads](https://img.shields.io/pypi/dm/grikod2?logo=pypi&label=PyPi%20downloads)
+[![Linted with Ruff](https://img.shields.io/badge/Linted%20with-Ruff-green?logo=python&logoColor=white)](https://github.com/astral-sh/ruff)
 
 ---
 
@@ -212,3 +209,5 @@ Keçeci, Mehmet. "Grikod2". Zenodo, 06 Mayıs 2025. https://doi.org/10.5281/zeno
 ```
 This project is licensed under the MIT License.
 ```
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FWhiteSymmetry%2Fgrikod2.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2FWhiteSymmetry%2Fgrikod2?ref=badge_shield&issueType=license)
